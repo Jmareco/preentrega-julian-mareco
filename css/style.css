@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* inicio configuracion del nav */
+
+
+nav {
+    background-color: #df6c00;
+    padding: 0.25rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 2px 4px;
+}
+
+
+/*fin configuracion del nav*/
+
+/*configuraciones del home*/
+
+.titulo {
+    padding: 5px;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.contenido-principal {
+    background-color: black;
+}
+
+.parraffo {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.bordes {
+    border-radius: 5%;
+}
+
+/*configuracion del footer*/
+
+.thefooter {
+    background-color: #df6c00;
+    padding: 1rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.thefooter div {
+    display: flex;
+
+}
+
+.thefooter div p {
+    margin: 0;
+}
+
+.thefooter div img {
+    margin-left: 1rem;
+}
+
+
+/* sobre galeria */
+
+.contenido-galeria {
+    background-color: black;
+}
+
+.img-gale {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.videoyt {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+/*sobre discografia*/
+
+.contenido-disco {
+    background-color: black;
+}
+
+.iframe-container {
+    justify-content: center;
+}
+
+/*sobre historia*/
+
+.contenedor-fondo {
+    background-image: url(../img/Foto_Bio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.texto-abs {
+    color: white;
+}
+
+.containerr {
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* config formulario*/
+
+.parrafo-bio{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.fieldset-bio {
+    border: solid #df6c00 3px;
+    border-radius: 20px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: 700px;
+    margin: 50px 300px 100px 600px;}
